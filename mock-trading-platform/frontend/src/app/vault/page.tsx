@@ -1,20 +1,23 @@
-'use client';
+"use client";
 
-import { useRouter } from 'next/navigation';
-import { ArrowLeft, Shield, Mail, Phone, MessageCircle, Clock, Vault, CheckCircle, Users, Award } from 'lucide-react';
-import { LogoWithText } from '@/components/ui/Logo';
-import { motion } from 'framer-motion';
+import { useRouter } from "next/navigation";
+import { ArrowLeft, Shield, Mail, Phone, MessageCircle, Clock, Vault, CheckCircle, Users } from "lucide-react";
+import { LogoWithText } from "@/components/ui/Logo";
+import { motion } from "framer-motion";
 
 export default function VaultPage() {
   const router = useRouter();
 
+  const handleBack = () => {
+    router.back();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Navigation Header */}
       <nav className="relative z-10 p-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <button
-            onClick={() => router.back()}
+            onClick={handleBack}
             className="flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-200"
           >
             <ArrowLeft className="w-5 h-5" />
@@ -24,10 +27,8 @@ export default function VaultPage() {
         </div>
       </nav>
 
-      {/* Main Content */}
       <div className="container mx-auto px-6 py-12">
         <div className="max-w-4xl mx-auto">
-          {/* Header Section */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,7 +61,6 @@ export default function VaultPage() {
             </motion.p>
           </motion.div>
 
-          {/* Status Card */}
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -93,7 +93,6 @@ export default function VaultPage() {
                 To access Vault Elite features, please contact our support team for verification and account setup.
               </motion.p>
               
-              {/* Contact Information */}
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -104,7 +103,6 @@ export default function VaultPage() {
                   Contact Support for More Information
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6">
-                  {/* Email Support */}
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -126,7 +124,6 @@ export default function VaultPage() {
                     </a>
                   </motion.div>
 
-                  {/* Phone Support */}
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -148,7 +145,6 @@ export default function VaultPage() {
                     </a>
                   </motion.div>
 
-                  {/* Live Chat */}
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -173,15 +169,13 @@ export default function VaultPage() {
                 </div>
               </motion.div>
 
-              {/* Support Hours */}
               <div className="text-sm text-white/60">
                 <p>Support Hours: Monday - Friday, 8:00 AM - 8:00 PM EST</p>
                 <p>Emergency Support: 24/7 for Vault Elite members</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          {/* Features Preview */}
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

@@ -21,6 +21,11 @@ if (process.env.FRONTEND_URL) {
   allowedOrigins.push(process.env.FRONTEND_URL);
 }
 
+// Add production domains
+if (process.env.NODE_ENV === 'production') {
+  allowedOrigins.push('https://your-domain.com');
+}
+
 app.use(cors({
   origin: allowedOrigins,
   credentials: true
@@ -33,8 +38,36 @@ app.use('/api/assets', assetRoutes);
 app.use('/api/trades', tradeRoutes);
 app.use('/api/admin', adminRoutes);
 
-app.get('/api/health', (req, res) => {
-  res.json({ message: 'Mock Trading Platform API is running' });
+app.get('/api/health', async (req, res) => {
+  try {
+    // Check database connection
+    const { db } = await import('./database/sqlite');
+    await db.get('SELECT 1');
+    
+    res.json({ 
+      status: 'healthy',
+      message: 'Mock Trading Platform API is running',
+      timestamp: new Date().toISOString(),
+      database: 'connected'
+    });
+  } catch (error) {
+    res.status(503).json({ 
+      status: 'unhealthy',
+      message: 'Service unavailable',
+      timestamp: new Date().toISOString(),
+      database: 'disconnected'
+    });
+  }
+});
+
+app.get('/api/ready', async (req, res) => {
+  try {
+    const { db } = await import('./database/sqlite');
+    await db.waitForInit();
+    res.json({ status: 'ready' });
+  } catch (error) {
+    res.status(503).json({ status: 'not ready' });
+  }
 });
 
 app.listen(PORT, async () => {
