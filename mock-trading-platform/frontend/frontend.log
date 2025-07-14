@@ -1,0 +1,1830 @@
+
+> frontend@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.9:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 888ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s
+ GET / 200 in 2587ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 651ms
+ GET /login 200 in 669ms
+ ✓ Compiled /_not-found/page in 306ms
+ GET /grid.svg 404 in 339ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 568ms
+ GET /dashboard 200 in 586ms
+ GET /dashboard 200 in 33ms
+ ✓ Compiled in 59ms
+ ✓ Compiled in 48ms
+ ✓ Compiled in 37ms
+ GET /grid.svg 404 in 56ms
+ ✓ Compiled in 67ms
+ ✓ Compiled in 37ms
+ ✓ Compiled in 76ms
+ GET /grid.svg 404 in 62ms
+ GET /grid.svg 404 in 33ms
+ ✓ Compiled in 2.9s
+ GET /grid.svg 404 in 49ms
+ ✓ Compiled in 64ms
+ ✓ Compiled in 67ms
+ GET /grid.svg 404 in 106ms
+ ✓ Compiled in 114ms
+ GET /grid.svg 404 in 59ms
+ ○ Compiling /market ...
+ ✓ Compiled /market in 968ms
+ GET /market 200 in 1053ms
+ GET /grid.svg 404 in 58ms
+ ○ Compiling /trade ...
+ ✓ Compiled /trade in 542ms
+ GET /trade 200 in 600ms
+ GET /grid.svg 404 in 41ms
+ ✓ Compiled /portfolio in 490ms
+ GET /portfolio 200 in 547ms
+ GET /grid.svg 404 in 43ms
+ GET /dashboard 200 in 207ms
+ GET /grid.svg 404 in 33ms
+ ✓ Compiled in 57ms
+ GET /grid.svg 404 in 71ms
+ GET /market 200 in 75ms
+ GET /grid.svg 404 in 69ms
+ GET /trade 200 in 61ms
+ GET /grid.svg 404 in 48ms
+ GET /market 200 in 66ms
+ GET /grid.svg 404 in 65ms
+ GET /trade 200 in 78ms
+ GET /grid.svg 404 in 46ms
+ GET /portfolio 200 in 60ms
+ GET /grid.svg 404 in 48ms
+ GET /dashboard 200 in 66ms
+ GET /grid.svg 404 in 45ms
+ GET /login 200 in 121ms
+ GET /dashboard 200 in 27ms
+ GET /market 200 in 83ms
+ GET /grid.svg 404 in 52ms
+ GET /trade 200 in 72ms
+ GET /grid.svg 404 in 41ms
+ GET /portfolio 200 in 72ms
+ GET /grid.svg 404 in 42ms
+ GET /dashboard 200 in 65ms
+ GET /grid.svg 404 in 45ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1071ms
+ GET /admin 200 in 1237ms
+ GET /grid.svg 404 in 46ms
+ ✓ Compiled in 257ms
+ ✓ Compiled in 155ms
+ GET /grid.svg 404 in 53ms
+ GET /grid.svg 404 in 35ms
+ ✓ Compiled in 210ms
+ GET /grid.svg 404 in 52ms
+ ✓ Compiled in 77ms
+ ✓ Compiled in 49ms
+ ✓ Compiled in 88ms
+ GET /grid.svg 404 in 55ms
+ GET /grid.svg 404 in 32ms
+ ✓ Compiled in 253ms
+ GET /grid.svg 404 in 54ms
+ GET /dashboard 200 in 274ms
+ GET /grid.svg 404 in 49ms
+ GET /market 200 in 211ms
+ GET /grid.svg 404 in 79ms
+ GET /trade 200 in 180ms
+ GET /grid.svg 404 in 42ms
+ GET /dashboard 200 in 77ms
+ GET /grid.svg 404 in 39ms
+ ✓ Compiled in 592ms
+ GET /grid.svg 404 in 56ms
+ ✓ Compiled in 145ms
+ ✓ Compiled in 1747ms
+ GET /grid.svg 404 in 46ms
+ GET /grid.svg 404 in 36ms
+ ✓ Compiled in 82ms
+ GET /grid.svg 404 in 114ms
+ ✓ Compiled in 64ms
+ ✓ Compiled in 45ms
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/hooks/useToast.ts:3:1
+Module not found: Can't resolve 'zustand'
+[0m [90m 1 |[39m [32m'use client'[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { create } [36mfrom[39m [32m'zustand'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { [33mToastData[39m[33m,[39m [33mToastType[39m } [36mfrom[39m [32m'@/components/ui/Toast'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36minterface[39m [33mToastStore[39m {[0m
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 353ms
+ ✓ Compiled in 333ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 937ms
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8v4i74f1l9m'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8v4i74f1l9m'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.c77tayeoa5i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.c77tayeoa5i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.a4wz43qb2q'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.a4wz43qb2q'
+}
+ ✓ Compiled /dashboard in 7ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y5g6jw7dl6n'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y5g6jw7dl6n'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.62a317ami3i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.62a317ami3i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ix44pk8aeor'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ix44pk8aeor'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.62oivcdt9z'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.62oivcdt9z'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.oxk32378kk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.oxk32378kk'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qg1n9r0gu1'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qg1n9r0gu1'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vjynv14qpx'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vjynv14qpx'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vy5q0htg1t'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vy5q0htg1t'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mtek1bapj4c'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mtek1bapj4c'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1xieo6mtd2l'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1xieo6mtd2l'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.uoag6je9gns'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.uoag6je9gns'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.a2ph25npjbb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.a2ph25npjbb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.gtxe5raqn0w'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.gtxe5raqn0w'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9e4vubpsgn6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9e4vubpsgn6'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mb0ch1tcpsr'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mb0ch1tcpsr'
+}
+ ✓ Compiled in 51ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.5nj36lbkjsh'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.5nj36lbkjsh'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/dashboard/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.soj2swd3rn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.soj2swd3rn'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hdjov6kjmjf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hdjov6kjmjf'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.azjileaaxv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.azjileaaxv'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.symi67wa2l'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.symi67wa2l'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ywvxk0yqb1'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ywvxk0yqb1'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hv6aqrr80yk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hv6aqrr80yk'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.wewtknslrtq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.wewtknslrtq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mnwowvt5hd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mnwowvt5hd'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8i1wlwfkhmu'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8i1wlwfkhmu'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mzlprtv0hmt'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mzlprtv0hmt'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2r2ps4ngci3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2r2ps4ngci3'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ua1h1f10pgo'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ua1h1f10pgo'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7j1yjnxgct6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7j1yjnxgct6'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.k85l1q422w'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.k85l1q422w'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.d6mjs8d5lmw'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.d6mjs8d5lmw'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ptjmqrdy1is'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ptjmqrdy1is'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.gtxj8yowinm'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.gtxj8yowinm'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.dzrymx7tqap'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.dzrymx7tqap'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.40us6adem93'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.40us6adem93'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yhd38ex49r'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yhd38ex49r'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.adke0y0rz1'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.adke0y0rz1'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.do85pla6te4'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.do85pla6te4'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ts1leyz5iz8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ts1leyz5iz8'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.f11kx0rccm9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.f11kx0rccm9'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.32o2lazuys6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.32o2lazuys6'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.zosvwocuwn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.zosvwocuwn'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.oqjsa120g2d'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.oqjsa120g2d'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.wju6esge81'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.wju6esge81'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.c0pqyj6qkeg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.c0pqyj6qkeg'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.xulf6hlvo4'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.xulf6hlvo4'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sagkvff75'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sagkvff75'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.py36zgy5y1'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.py36zgy5y1'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z1mot0z9bj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z1mot0z9bj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7dcjmz2y8kn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7dcjmz2y8kn'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6bkky9ktb9l'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6bkky9ktb9l'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ftyas1embi'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ftyas1embi'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1hayp9vkmp3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1hayp9vkmp3'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.q2to5fnta3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.q2to5fnta3'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.12biyp9mitlq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.12biyp9mitlq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.kecli0yi0aq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.kecli0yi0aq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.539cwfmohjd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.539cwfmohjd'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.icuqp9ssvkg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.icuqp9ssvkg'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.beszx3z8m7j'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.beszx3z8m7j'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hz8igsel7k'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hz8igsel7k'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.phoq8plsrv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.phoq8plsrv'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2rrtdhhfuvh'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2rrtdhhfuvh'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z78613g5ei'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z78613g5ei'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.tdczefy6lhb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.tdczefy6lhb'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ljsykpo41rn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ljsykpo41rn'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sek1ioxszmd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sek1ioxszmd'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8juxozylnfj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.8juxozylnfj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.daaxsbk4zr7'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.daaxsbk4zr7'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.zdn00c59dx'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.zdn00c59dx'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.jcaz4642f8e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.jcaz4642f8e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2n7x1lxywd6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2n7x1lxywd6'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6vehkmyfhx3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6vehkmyfhx3'
+}
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.3.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.9:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 834ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.1s
+ GET /dashboard 200 in 3396ms
+ ✓ Compiled /_not-found/page in 411ms
+ GET /grid.svg 404 in 442ms
+ ○ Compiling /market ...
+ ✓ Compiled /market in 643ms
+ GET /market 200 in 855ms
+ GET /grid.svg 404 in 100ms
+ ○ Compiling /trade ...
+ ✓ Compiled /trade in 598ms
+ GET /trade 200 in 658ms
+ GET /grid.svg 404 in 40ms
+ ○ Compiling /portfolio ...
+ ✓ Compiled /portfolio in 566ms
+ GET /portfolio 200 in 626ms
+ GET /grid.svg 404 in 51ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 884ms
+ GET /admin 200 in 954ms
+ GET /grid.svg 404 in 47ms
+ GET /dashboard 200 in 72ms
+ GET /grid.svg 404 in 55ms
+ GET /admin 200 in 66ms
+ GET /grid.svg 404 in 45ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 567ms
+ GET /login 200 in 591ms
+ GET /dashboard 200 in 30ms
+ GET /login 200 in 44ms
+ GET /dashboard 200 in 29ms
+ GET /admin 200 in 77ms
+ GET /grid.svg 404 in 50ms
+ ✓ Compiled in 2.4s
+ ✓ Compiled /admin in 39ms
+ GET /admin 200 in 177ms
+ GET /admin 200 in 141ms
+ ✓ Compiled /_not-found/page in 20ms
+ GET /grid.svg 404 in 136ms
+ ✓ Compiled /dashboard in 25ms
+ GET /dashboard 200 in 180ms
+ GET /grid.svg 404 in 43ms
+ ✓ Compiled /login in 40ms
+ GET /login 200 in 134ms
+ GET /login 200 in 116ms
+ GET /grid.svg 404 in 47ms
+ GET /login 200 in 54ms
+ GET /grid.svg 404 in 45ms
+ ✓ Compiled in 74ms
+ ✓ Compiled in 91ms
+ GET /grid.svg 404 in 63ms
+ ✓ Compiled in 96ms
+ ✓ Compiled in 85ms
+ ✓ Compiled in 55ms
+ GET /grid.svg 404 in 115ms
+ GET /grid.svg 404 in 37ms
+ ✓ Compiled in 68ms
+ ✓ Compiled in 69ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 783ms
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ij3rchqzy'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ij3rchqzy'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7juu79s4vtn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7juu79s4vtn'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.e9ekhvdp0h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.e9ekhvdp0h'
+}
+ ✓ Compiled in 106ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yp382udgmin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yp382udgmin'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.enmswa5xd7m'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.enmswa5xd7m'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1e9sd2eir58'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1e9sd2eir58'
+}
+ ✓ Compiled in 144ms
+ ✓ Compiled in 91ms
+ ✓ Compiled in 44ms
+ ✓ Compiled /login in 17ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ✓ Compiled /_not-found/page in 4ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/_not-found/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3uy64ybrqe6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3uy64ybrqe6'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vvkkihzg0n'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vvkkihzg0n'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y8bhjln1ro'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y8bhjln1ro'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.rbkzfq1lz6s'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.rbkzfq1lz6s'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3zd3d9roblj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3zd3d9roblj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1p2dhkaegv2h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1p2dhkaegv2h'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mty2g9xcbj7'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.mty2g9xcbj7'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.h2qzl7qrtau'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.h2qzl7qrtau'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sgv3bvsvlkk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.sgv3bvsvlkk'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.j4g86mft4u'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.j4g86mft4u'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.nvui8uopzzg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.nvui8uopzzg'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qe71j6u4yi'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qe71j6u4yi'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yo7n7mjnpx'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.yo7n7mjnpx'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1pfhioggf3t'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.1pfhioggf3t'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z8jratectn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z8jratectn'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2jfnicy5h0k'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2jfnicy5h0k'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.lmsxdxlw5s'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.lmsxdxlw5s'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.xqw5t2s676e'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.xqw5t2s676e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.txh3af630fh'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.txh3af630fh'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.bh3po44d1s'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.bh3po44d1s'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qtowgkcb9vl'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.qtowgkcb9vl'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z9s748s4ipd'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.z9s748s4ipd'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.fyhp06sqr5i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.fyhp06sqr5i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.4fmdsq6nwx'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.4fmdsq6nwx'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.giot6ziiu76'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.giot6ziiu76'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3vjl5lxuoyz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.3vjl5lxuoyz'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ov1a5bqh8vk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ov1a5bqh8vk'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.fy2chn0j5y'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.fy2chn0j5y'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.kqvq52ek8y'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.kqvq52ek8y'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6ola4dygg2y'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6ola4dygg2y'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.h7r64xrdqya'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.h7r64xrdqya'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.uu4du74hl8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.uu4du74hl8'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.dj4faydrm8'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.dj4faydrm8'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.25yldanhxl1'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.25yldanhxl1'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.5072uwzhu8r'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.5072uwzhu8r'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.i8ynyygvlp9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.i8ynyygvlp9'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ntxih7gzkc'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ntxih7gzkc'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.96rti0kxrm4'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.96rti0kxrm4'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9oea86kax9b'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9oea86kax9b'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7e0ejo3l0ct'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.7e0ejo3l0ct'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vqchywegtr'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.vqchywegtr'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.spizat6qtz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.spizat6qtz'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.45h62jpty7i'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.45h62jpty7i'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.pjnc5nlosk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.pjnc5nlosk'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ahdpnxixa2h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.ahdpnxixa2h'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.0024hwu84f6np'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.0024hwu84f6np'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hxfe6a9jz6d'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.hxfe6a9jz6d'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y6m022daqhe'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.y6m022daqhe'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2utf2qn7bnb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.2utf2qn7bnb'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6ui1abfek3h'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.6ui1abfek3h'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.pcrjb9h4eb'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.pcrjb9h4eb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9ho6m6wojor'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.9ho6m6wojor'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/server/app/login/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.52sizyriajj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.52sizyriajj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.v7tgky4kvab'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/kriszzdiscord/Documents/Code/mock-trading-platform/mock-trading-platform/frontend/.next/static/development/_buildManifest.js.tmp.v7tgky4kvab'
+}
+[?25h

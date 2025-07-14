@@ -1,0 +1,16 @@
+{
+  "name": "TradingPro - Professional Trading Platform",
+  "short_name": "TradingPro",
+  "description": "Professional trading platform with advanced tools and institutional-grade execution",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
